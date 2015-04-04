@@ -17,9 +17,9 @@ extern NSString * const SIAlertViewDidDismissNotification;
 
 
 typedef NS_ENUM(NSInteger, SIAlertViewTransitionStyle) {
-    SIAlertViewTransitionStyleSlideFromBottom = 0,
+    SIAlertViewTransitionStyleFade = 0,
+    SIAlertViewTransitionStyleSlideFromBottom,
     SIAlertViewTransitionStyleSlideFromTop,
-    SIAlertViewTransitionStyleFade,
     SIAlertViewTransitionStyleBounce,
     SIAlertViewTransitionStyleDropDown
 };
